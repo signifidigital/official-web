@@ -2374,12 +2374,12 @@ html {
   
   .button.is-secondary.is-small {
     color: #f6f6f6;
-    background-color: #191a1c;
+    background-color: #439676;
     transition: all .2s;
   }
   
   .button.is-secondary.is-small:hover {
-    background-color: #35383f;
+    background-color: #368064;
   }
   
   .button.is-secondary.is-alternate {
