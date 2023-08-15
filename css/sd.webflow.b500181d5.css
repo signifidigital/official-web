@@ -2348,7 +2348,7 @@ html {
   }
   
   .heading-style-custom {
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 600;
     line-height: 1;
   }
@@ -3018,6 +3018,11 @@ html {
   .icon-1x1-xsmall {
     width: 1.5rem;
     height: 1.5rem;
+  }
+  .icon-1x1-xsmallsig {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding-right: .2rem;
   }
   
   .icon-1x1-small {
