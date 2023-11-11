@@ -4475,6 +4475,14 @@ html {
     left: 15%;
     right: auto;
   }
+
+  .about_section-team_name.is-madushanka {
+    width: 20rem;
+    top: auto;
+    bottom: -20%;
+    left: 15%;
+    right: auto;
+  }
   
   .about_section-team_title {
     grid-row-gap: .5rem;
@@ -6063,6 +6071,10 @@ html {
     ._404_image {
       width: 50%;
     }
+
+    .home_section-awards-img {
+      height: 9rem;
+    }
   }
   
   @media screen and (max-width: 479px) {
@@ -6276,6 +6288,10 @@ html {
       text-align: left;
       font-size: 1.2rem;
     }
+
+    .home_section-awards-img {
+      height: 7rem;
+    }
   }
   
   #w-node-_7ff0762c-9b28-5c15-13ed-45e08aabfc6c-8648c5ae {
@@ -6453,4 +6469,35 @@ html {
     font-weight: 400;
     font-style: normal;
     font-display: swap;
+  }
+
+
+  .home_section-awards {
+    padding-top: 6.25rem;
+  }
+  
+  .home_section-awards_heading-wrapper {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.5rem;
+    display: flex;
+  }
+  
+  .home_section-awards_imgs-wrapper {
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  .home_section-awards-img {
+    height: 9.5rem;
+    object-fit: contain;
+  }
+  .home_section-awards-img {
+    height: 9rem;
   }
